@@ -25,11 +25,6 @@ function ReturnFileList(err, data)
             fileArray.push(data[i]);    
         }
     }
-    
-    //for (var i = 0; i < fileArray.length; i++) 
-    //{
-    //   console.log(fileArray[i]);
-    //}
 
     callbackFunc(null, fileArray);
 }
